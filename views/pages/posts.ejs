@@ -1,0 +1,10 @@
+<h1>Friends</h1>
+<h4 style="font-weight: bold;">
+    <%= totalFriendsCount %>
+</h4>
+<h1>Profile Photo</h1>
+<img style="width: 200px; height: 200x; margin: 10px; border-radius: 50%;" src='<%= profileImgUrl %>' alt="img" /><br />
+<h1>Posts</h1>
+<% for(var i=0; i < urls.length; i++) { %>
+    <img style="width: 200px; height: 200x; margin: 10px;" src='<%= urls[i] %>' alt="img" /><br />
+    <% } %>
